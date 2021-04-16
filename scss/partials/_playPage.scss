@@ -1,0 +1,66 @@
+div.play_page {
+  background: url("background1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    div.page_message {
+      color: white;
+      text-align: center;
+      width: 75%;
+      margin: 2em auto;
+      /*background-color: darkgoldenrod;*/
+      padding: 2em;
+    }
+
+    div.page_message p {
+      display: inline-block;
+    }
+
+    .links p {
+      text-align: right;
+      font-family: "Times New Roman", sans-serif;
+    }
+
+    .links a:link {
+      color: white;
+    }
+
+    .links a:visited {
+      color: #9FAAB0;
+    }
+
+    .links a:hover {
+      color: black;
+    }
+
+    .wiki_link a:link {
+      color: white;
+    }
+
+    .wiki_link a:visited {
+      color: white;
+    }
+
+    .wiki_link a:hover {
+      color: black;
+    }
+
+    H1, H2 {
+      text-align: center;
+    }
+
+    div.team_info {
+      border: 5px solid #db7093;
+      width: 50%;
+      margin: 0 auto;
+      /*background: aliceblue;*/
+    }
+
+    div.how_to_play_message {
+      text-align: center;
+      font-size: 200%;
+      color: black;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Sorry game about being sorry",
+  "autoload": {
+    "psr-4": {
+      "Sorry\\": "lib/Sorry",
+      "JsonUtil\\": "JsonUtil"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "6",
+    "ext-json": "*"
+  },
+  "name": "digitalvillainy/sorry"
+}

@@ -1,0 +1,34 @@
+I'm adding notes in this txt file because you cannot add comments to
+json files and if you try to, it causes errors and looks super messy.
+
+Object called coordinates is what I made for storing the current location
+of each of the player's pawns.
+Pawns are of a certain color and each color of pawn corresponds to a color
+name and also a letter which tells us which of the player's 4 pawns it is.
+We have pawns a-d for each player.
+
+The "safe" object tells us if the pawn is at a location where it cannot be moved by another
+player's pawn. These spots are start, safe, and home zones. Any other location
+it is at isn't considered safe.
+
+For the cards: I am not sure if we will need to have something to keep track
+of cards in discard and cards in draw pile, but I added "discardCards" and "deckCards" in there for now. 
+
+The "status" object within the "game" object is what we will use to figure out if
+the came has concluded (someone won) or if it is ongoing.
+
+// player and game
+
+// Game will be the parent object for cards in draw and cards in discard (maybe), the status (done or not)
+// and state (which is mostly taken care of by player object)
+
+
+//<?php
+//// Example of getting json
+//$file = json_decode(file_get_contents('test.json'), true);
+//echo $file['game']['status']
+//// output: "playing"
+//// Example of updating json
+//$file = json_decode(file_get_contents('test.json'));
+//$file['game']['status'] = 'done';
+//file_put_contents("test.json", json_encode($file));

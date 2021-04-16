@@ -1,0 +1,8 @@
+#playerSelection {
+  text-align: left;
+}
+
+#playerSelection label:after {
+  content: "\a";
+  white-space: pre;
+}

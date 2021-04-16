@@ -1,0 +1,138 @@
+{
+  "players": {
+    "red": {
+      "a": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": false
+      },
+      "b": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "c": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "d": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "home": 0,
+      "start": 0
+    },
+    "green": {
+      "a": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "b": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "c": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "d": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "home": 0,
+      "start": 0
+    },
+    "blue": {
+      "a": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "b": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "c": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "d": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "home": 0,
+      "start": 0
+    },
+    "yellow": {
+      "a": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "b": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "c": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "d": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "safe": true
+      },
+      "home": 0,
+      "start": 0
+    }
+  },
+  "game": {
+    "discardCards": [],
+    "deckCards": [],
+    "lastCardDrawn": 1,
+    "status": "playing"
+  }
+}
